@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="dice_task1.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,700" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<hr style="background-color: black; height: 30px;">
+<section class="container">
+    <section class="row">
+        <section class="col-12 col-md-8">
+<h2 id="txt">
+        <p>Welcome to the</p>
+        <p>DICE STORE</p> </h2><i style="font-family: Raleway;margin:30px">Grab all snacks now! Cause that is what your tummy is craving for!</i></section>
+        <section class="col-12 col-md-4">
+<img src="https://i.pinimg.com/originals/48/c8/b4/48c8b4eaac2a55362b524278a635943f.gif", style="height:400px; width:400px">
+   
+    <br>
+    
+</section>
+
+  </section></section>
+  <hr style= "height:15px; background-color:#fc888c;color:#fc888c">
+  
+        <h1 id="pro" style="color: rgb(240, 109, 133)"><center>Product Listing</center></h1>
+        <div class="product-grid">
+            <!-- Product cards will be rendered here -->
+        </div>
+    
+        <div class="product-popup" id="productPopup">
+            <div class="popup-content">
+                <span class="close-button" onclick="closePopup()">&times;</span>
+                <div id="popupDetails"></div>
+            </div>
+        </div>
+            <!-- Product cards will be dynamically generated here -->
+        
+    <!-- Product details modal -->
+    <div class="modal" id="productModal">
+        <!-- Modal content goes here -->
+        <h2 id="modalTitle"></h2>
+        <img src="" alt="Product Image" id="modalImage">
+        <p id="modalPrice"></p>
+        <p id="modalDescription"></p>
+        <button class="view-more">Read More</button>
+    </div>
+
+    <script src="dice_task1.js"></script>
+    <hr style=" height:50px; background-color:black">
+</body>
+</html>
